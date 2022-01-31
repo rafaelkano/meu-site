@@ -1,0 +1,19 @@
+
+TITULO
+
+Pimeiro Post
+
+
+DESCRIÇÃO
+
+O primeiro post de um blog em contrução, com o objetivo de me fazer pesquisar mais sobre programação.
+
+MAIN
+
+Como forma de introdução vou começar me apresentando: sou um iniciante na programação, que já tem uma profissão estabelecida (funcionário público), mas como sempre me interessei pela área de eletrônica e informática, acabei por entrar nessa jornada (que me parece cada vez mais longa!) de aprender a programar.
+
+O que eu quero dizer com aprender a programar ainda não está claro para mim também, no começo estava interessado a aprender Python, pela possibilidade de trabalhar com muitos dados e principalmente fazer algo relacionado ao mercado financeiro. A parte de robótica também me chamava muito atenção na época de curso técnica, pelo facínio com a robótica e automação. Mas nesse momento, e quanto mais eu pesquiso, me parece que seria interessante estabelecer bases sólidas de programação, talvez aprendendo uma linguagem clássica como C.
+
+Tmbém surgiram dúvidas sobre como aprender, sempre gostei de aprender como autodidata, mas neste momento estou tentado a ingressar um curso de graduação, também pensando na tal base sólida de conhecimentos. Estou fazendo alguns cursos online e me parece uma boa forma de dar um ponta-pé, de começar a girar a roda, mas tenho minhas dúvidas sobre a profundidade dos conteúdos mais avançados e a falta de semelhança com a realidade dos conhecimentos necessários para um desenvolvidor.
+
+Por fim, deixo claro que este blog será escrito por iniciante (muito iniciante!!!) como forma de pesquisa e para melhorar a fixação dos conhecimentos, mas também com o intuito de interagir de alguma forma com a comunidade de desenvolvimento, e quem sabe poder ajudar alguém a tirar alguma dúvida rápida.

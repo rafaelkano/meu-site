@@ -1,3 +1,7 @@
+* {
+    font-family: 'ubuntu', sans-serif;
+}
+
 body {
     background:#0d192b;
 }
@@ -12,7 +16,7 @@ body {
 
 .main-title {
     color:#07f9a2;
-    font-size:60px;
+    font-size:4em;
 }
 
 .main-nav {    
@@ -28,9 +32,10 @@ body {
 
 .main-nav a {
     text-decoration:none;
+    font-family:'ubuntu', sans-serif;
     color:#ffffff;
     text-transform:uppercase;
-    font-size:20px;
+    font-size:2em;
     font-weight:bold;
     padding:10px 30px;
 }
@@ -41,8 +46,8 @@ body {
 }
 
 .about p {
-    color:#ffffff;
-    font-size:24px;
+    color:#F8F8FF;
+    font-size:1.5em;
 }
 
 .main-box {
@@ -51,40 +56,82 @@ body {
     padding:50px 0;
 }
 
-.home-article {
+.home-article#principal {
+    display: block;
+    width:100%;   
+}
+
+#article-link {
+    text-decoration:none;
+}
+
+.home-article {       
     display:inline-block;
-    width:30%;
+    width:100%;
     border:2px solid #5e5e5e;
     text-align:center;
     vertical-align:top;
-    margin:20px 0.5%;
+    margin:20px 1.5%;
     padding:30px 5px;
     box-sizing:border-box;
-    border-radius:10px;
+    border-radius:10px;   
     transition: all 1s;
 }
 
 .home-article:hover {
     border-color:#07f9a2;
     border-bottom-style:difuse solid;
+    box-shadow: 0 5px 10px 2px #07f9a2;
 }
 
-.home-article:hover h3 {
-    color:#07f9a2;
-}
-
-.home-article h3 {
+.home-article h1 {
     color:#ffffff;
     margin-bottom:20px;
     font-weight:bold;
-    font-size:24px;
+    font-size:3em; 
     transition: all 1s;
 }
 
+.home-article:hover h1 {
+    color:#07f9a2;    
+}
+
+.home-article h2 {
+    color: #F8F8FF;
+    font-size:1.8em;
+    margin-bottom:1em;
+}
+
+.home-article h3 {
+    color: #F8F8FF;
+    font-size:1.5em;
+    margin-bottom:1em;
+}
+
+
 .home-article p {
-    color:#ffffff;
+    color:#F8F8FF;
+    justify-content:left;
+    font-size:1em;
 }
 
 .article-img {
     width:95%;
+    margin: 2em 0;
 }
+
+footer {
+    background: #383845;
+    padding: 2em 0;
+}
+
+.footer {
+    width:1024px;
+    margin: 0 auto; 
+}
+
+footer p {
+    color:#F8F8FF;
+}
+
+

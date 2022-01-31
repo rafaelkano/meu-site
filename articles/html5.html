@@ -1,0 +1,89 @@
+<!DOCTYPE html/>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Rafael Kano Blog</title>
+        <link rel="stylesheet" href="../reset.css"/>
+        <link rel="stylesheet" href="../style-home.css"/>
+        <link rel="stylesheet" href="style-article.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="main-title">Rafael Kano Blog</h1>
+            
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li><!--
+                    <li><a>Loja</a></li>
+                    <li><a>Contatos</a></li>  -->
+                </ul>
+            </nav>
+            
+
+        </header>
+
+        <main>
+            <section>
+                <article class="article">
+                    <h1>O que é HTML e de onde veio</h1>
+                    <p class="date" id="article-date">2 de fevereiro de 2022</p>
+                    <img class="post-img" src="../images/html5-.jpg" alt="Tela de Código com um Logo do HTML5 centralizado"/>
+
+                    <h2>Um breve histórico do desenvolvimento do HTML e CSS para entender o porque de sua criação e de seu estado atual (senta que lá vem história).</h2>
+                    
+                    <p>O que é o HTML? A sigla significa HiperText Markup Language, ou linguagem de marcação de hipertexto. E o que isso significa? Que o HTML permite estruturar uma página Web através de um documento de texto, utilizando marcações (TAGs) que dão significado a cada parte do documento.</p>
+
+                    <p>Então o HTML é basicamente utilizado para estruturar uma página Web, e dizer ao navegador o que cada parte de um arquivo de texto reaçmente é, se é um Título, um Cabeçalho, um Menu de Navegação e etc.</p>
+
+                    <h3>E de onde surgiu o HTML?</h3>
+
+                    <p>O HTML surgiu como forma de possibilitar o compartilhamento de documentos científicos entre pesquisadores de diferentes institutos, possibilitando que um computador remoto (cliente) exibisse, de forma correta, um documento armazenado em um repositório (servidor). Em 1989, Tim Berners-Lee, um físico britânico, e Robert Cailliau, estudante do European Council for Nuclear Reserch (CERN), conseguiram realizar pela aprimeira vez a comunicação de um cliente HTTP e um servidor, dando início ao que veio a se tornar a Word Wide Web, ou a Internet. Mas, somente em 1991 foi publicada oficialmente a primeira versão do HTML, que era baseada em uma linguagem chamada SGML, usada para tramitação de documentos governamentais de grande dimensão e para uso da industria aeroespacial. O SGML por sua vez deriva da GML, desenvolvida pela IBM na década de 60.</p>
+
+                    <p>Hoje o HTML está na sua versão 5 (HTML5) e é mantido pela W3C (The World Wide Web Consortium) em conjunto com o WHATWG (Web Hypertext Application Technology Working Group) (que sigla bosta!) e é possível acessar sua documentação oficial (com míseras 1324 pág.) no endereço: <a href="https://html.spec.whatwg.org/print.pdf.">https://html.spec.whatwg.org/print.pdf.</a></p>
+
+                    <h3>Principais TAGs</h3>
+                    <p>&lt;!DOCTYPE html&gt; Informa ao navegador que a página é uma página HTML5.</p>
+
+                    <p>&lt;html lang="pt-br"> Informa o início do documento html e a lingua utilizada na página.</p>
+                    
+                    <p>&lt;head>&lt;/head> Engloba o conteúdo do cabeçalho da página, que traz informações que não são exibidas diretamente na página, mas são empregadas pelo navegador.</p>
+                    
+                    <p>&lt;meta charset="UTF-8" /> Informa a codificação dos caracteres como UTF-8. Existem outras codificações de caracteres, mas a mais versátil é a UTF-8, por isso também é a mais usada.</p>
+                    
+                    <p>&lt;title>&lt;/title> Engloba o título da página. Este título será utilizado pelo navegador e ferramentas de buscas, e também será exibido como nome da aba em que a página está aberta no navegador.</p>
+                    
+                    <p>&lt;link rel="stylesheet" href="style.css" /> Referencia documentos externos à sua página, no exemplo uma folha de estilo (CSS) localizada pelo "path" declarado no href (href="style.css").</p>
+                    
+                    <p>&lt;body>&lt;/body> Vai englobar todo o corpo da sua página. Aqui começa o verdadeiro conteúdo a ser exibido na página.</p>
+                    
+                    <p>&lt;header>&lt;/header> Engloba o cabeçalho da página. Tradicionalmente destacada na parte superior da página.</p>
+                    
+                    <p>&lt;nav>&lt;/nav> Geralmente engloba um menu de navegação, informando ao navegador a localização dos intens de navegação da página.</p>
+                    
+                    <p>&lt;div>&lt;/div> Utilizada para demarcação genérica de um bloco de conteúdo, geralmente utilizar para demarcações visuais através de CSS.</p>
+                    
+                    <p>&lt;section>&lt;/section> Demarca um bloco específico, ou seção de página, que trata do mesmo assunto ou tem uma função caracterizada.</p>
+                    
+                    <p>&lt;article>&lt;/article> Geralmente utilizada para marcar um artigo, seja de um blog, notícias, artigos científicos ou qualquer outras informações.</p>
+                    
+                    <p>&lt;h1>&lt;/h1>...&lt;h6>&lt;/h6> Utilizadas para marcar títulos e subtitulos em ordem de importância, sendo h1 o mais destacado (título principal) e o h6 o menos importante.</p>
+                    
+                    <p>&lt;p>&lt;/p> Separam os parágrafos, ou qualquer bloco de texto da página.
+                    
+                    <p>&lt;footer>&lt;/footer> Marca o rodapé da página, geralmente destacado e trazendo informações secundárias sobre a página como contatos, links e etc.</p>
+                </article>
+            </section>
+
+        </main>
+
+        <footer>
+            <img/>
+            <p>Criado por Rafael Kano</p>
+        </footer>
+    </body>
+</html>

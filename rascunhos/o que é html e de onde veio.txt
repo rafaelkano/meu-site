@@ -1,0 +1,59 @@
+
+TÍTULO
+
+O que é HTML e de onde veio
+
+DESCRIÇÃO
+
+Um breve histórico do desenvolvimento do HTML e CSS para entender o porque de sua criação e de seu estado atual (senta que lá vem história)
+
+PRINCIPAL
+
+O que é o HTML? A sigla significa HiperText Markup Language, ou linguagem de marcação de hipertexto. E o que isso significa? Que o HTML permite estruturar uma página Web através de um documento de texto, utilizando marcações (TAGs) que dão significado a cada parte do documento.
+
+Então o HTML é basicamente utilizado para estruturar uma página Web, e dizer ao navegador o que cada parte de um arquivo de texto reaçmente é, se é um Título, um Cabeçalho, um Menu de Navegação e etc.
+
+E de onde surgiu o HTML?
+
+O HTML surgiu como forma de possibilitar o compartilhamento de documentos científicos entre pesquisadores de diferentes institutos, possibilitando que um computador remoto (cliente) exibisse, de forma correta, um documento armazenado em um repositório (servidor). Em 1989, Tim Berners-Lee, um físico britânico, e Robert Cailliau, estudante do European Council for Nuclear Reserch (CERN), conseguiram realizar pela aprimeira vez a comunicação de um cliente HTTP e um servidor, dando início ao que veio a se tornar a Word Wide Web, ou a Internet. Mas, somente em 1991 foi publicada oficialmente a primeira versão do HTML, que era baseada em uma linguagem chamada SGML, usada para tramitação de documentos governamentais de grande dimensão e para uso da industria aeroespacial. O SGML por sua vez deriva da GML, desenvolvida pela IBM na década de 60.
+
+Hoje o HTML está na sua versão 5 (HTML5) e é mantido pela W3C (The World Wide Web Consortium) em conjunto com o WHATWG (Web Hypertext Application Technology Working Group) (que sigla bosta!) e é possível acessar sua documentação oficial (com míseras 1324 pág.) no enderço: https://html.spec.whatwg.org/print.pdf.
+
+Principais TAGs
+
+<!DOCTYPE html> -> Informa ao navegador que a página é uma página HTML5
+
+<html lang="pt-br"> -> Informa o início do documento html e a lingua utilizada na página
+
+<head></head> -> Engloba o conteúdo do cabeçalho da página, que traz informações que não são exibidas diretamente na página, mas são empregadas pelo navegador
+
+<meta charset="UTF-8" /> -> informa a codificação dos caracteres como UTF-8. Existem outras codificações de caracteres, mas a mais versátil é a UTF-8, por isso também é a mais usada.
+
+<title></title> -> Engloba o título da página. Este título será utilizado pelo navegador e ferramentas de buscas, e também será exibido como nome da aba em que a página está aberta no navegador.
+
+<link rel="stylesheet" href="style.css" /> -> Referencia documentos externos à sua página, no exemplo uma folha de estilo (CSS) localizada pelo "path" declarado no href (href="style.css").
+
+<body></body> -> Vai englobar todo o corpo da sua página. Aqui começa o verdadeiro conteúdo a ser exibido na página.
+
+<header></header> -> Engloba o cabeçalho da página. Tradicionalmente destacada na parte superior da página.
+
+<nav></nav> -> Geralmente engloba um menu de navegação, informando ao navegador a localização dos intens de navegação da página.
+
+<div></div> -> Utilizada para demarcação genérica de um bloco de conteúdo, geralmente utilizar para demarcações visuais através de CSS.
+
+<section></section> -> Demarca um bloco específico, ou seção de página, que trata do mesmo assunto ou tem uma função caracterizada.
+
+<article></article> -> Geralmente utilizada para marcar um artigo, seja de um blog, notícias, artigos científicos ou qualquer outras informações.
+
+<h1></h1>...<h6></h6> -> Utilizadas para marcar títulos e subtitulos em ordem de importância, sendo h1 o mais destacado (título principal) e o h6 o menos importante.
+
+<p></p> -> Separam os parágrafos, ou qualquer bloco de texto da página.
+
+<footer></footer> -> Marca o rodapé da página, geralmente destacado e trazendo informações secundárias sobre a página como contatos, links e etc.
+
+Obviamente existem muito mais TAGs de grande relevância, mais a estrutura básica de um site pode ser montada através das TAGs apresentadas. Vale ressaltar também que o HTML5 incluiu diversas TAGs que melhoram semântica das páginas, informando ao navegador para que servem aquelas partes da página e facilitando a acessibilidade do site para pessoas com deficiência visual, que utilizam softwares de leitura de telas, que podem navegar através das partes da página.
+
+ 
+
+  
+

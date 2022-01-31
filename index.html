@@ -5,17 +5,25 @@
         <title>Rafael Kano Blog</title>
         <link rel="stylesheet" href="reset.css"/>
         <link rel="stylesheet" href="style-home.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="main-header">
             <h1 class="main-title">Rafael Kano Blog</h1>
+            
+            
             <nav class="main-nav">
                 <ul>
-                    <li><a>Home</a></li>
+                    <li><a href="index.html">Home</a></li><!--
                     <li><a>Loja</a></li>
-                    <li><a>Contatos</a></li>
+                    <li><a>Contatos</a></li>  -->
                 </ul>
             </nav>
+          
+
         </header>
 
         <div class="about">
@@ -24,46 +32,44 @@
 
         <main>
             <div class="main-box">
-                <article class="home-article">
-                    <h3>Um Artigo</h3>
-                    <img src="images/article1.jpg" class="article-img"/>
-                    <p>Lorem ipsum dolor sit amet. Sed officia deleniti et quia tenetur et recusandae dicta. Ut sint voluptate eos nemo deleniti sit aliquam ipsum. Quia molestias qui aspernatur enim est sapiente modi. Sed minus eligendi sed laborum dignissimos et quaerat delectus et repudiandae dolores sed fugit doloremque ut molestiae enim et saepe dolor.</p>
-                </article>
+                <a id="article-link" href="articles/primeiro-post.html">
+                    <article class="home-article" id="principal">
+                        <h1>Pimeiro Post</h1>
+                        <img src="images/newbie.jpg" class="article-img" alt="Selo de Newbie"/>
+                        <h2>O primeiro post de um blog em contrução, com o objetivo de me fazer pesquisar mais sobre programação.</h2>
+                        <p>Como forma de introdução vou começar me apresentando: sou um iniciante na programação, que já tem uma profissão estabelecida (funcionário público), mas como sempre me interessei pela área de eletrônica e informática, acabei por entrar nessa jornada (que me parece cada vez mais longa!) de aprender a programar.</p>
+                    </article>
+                </a>                
+
+                <a id="article-link" href="articles/html5.html">
+                    <article class="home-article">
+                        <h1>O que é HTML e de onde veio</h1>
+                        <img src="images/html5-.jpg" class="article-img"/>
+                        <h2>Um breve histórico do desenvolvimento do HTML e CSS para entender o porque de sua criação e de seu estado atual (senta que lá vem história).</h2>
+                        <p>O que é o HTML? A sigla significa HiperText Markup Language, ou linguagem de marcação de hipertexto. E o que isso significa? Que o HTML permite estruturar uma página Web através de um documento de texto, utilizando marcações (TAGs) que dão significado a cada parte do documento.</p>
+                    </article>
+                </a>
+                <!--
 
                 <article class="home-article">
-                    <h3>Um Artigo</h3>
+                    <h1>Um Artigo</h1>
                     <p>Lorem ipsum dolor sit amet. Sed officia deleniti et quia tenetur et recusandae dicta. Ut sint voluptate eos nemo deleniti sit aliquam ipsum. Quia molestias qui aspernatur enim est sapiente modi. Sed minus eligendi sed laborum dignissimos et quaerat delectus et repudiandae dolores sed fugit doloremque ut molestiae enim et saepe dolor..</p>
                 </article>
 
                 <article class="home-article">
-                    <h3>Um Artigo</h3>
+                    <h1>Um Artigo</h1>
                     <p>Lorem ipsum dolor sit amet. Sed officia deleniti et quia tenetur et recusandae dicta. Ut sint voluptate eos nemo deleniti sit aliquam ipsum. Quia molestias qui aspernatur enim est sapiente modi. Sed minus eligendi sed laborum dignissimos et quaerat delectus et repudiandae dolores sed fugit doloremque ut molestiae enim et saepe dolor.</p>
-                </article>
-
-                <article class="home-article">
-                    <h3>Um Artigo</h3>
-                    <img src="images/article1.jpg" class="article-img"/>
-                    <p>Este é mais um artigo...</p>
-                </article>
-
-                <article class="home-article">
-                    <h3>Um Artigo</h3>
-                    <img src="images/article1.jpg" class="article-img"/>
-                    <p>Este é mais um artigo...</p>
-                </article>
-
-                <article class="home-article">
-                    <h3>Um Artigo</h3>
-                    <img src="images/article1.jpg" class="article-img"/>
-                    <p>Este é mais um artigo...</p>
-                </article>
+                </article> -->               
 
             </div>            
         </main>
 
         <footer>
-            <img/>
-            <p>Criado por Rafael Kano</p>
+            <div class="footer">
+                <img/>
+                <p>Criado por Rafael Kano</p>
+            
+            </div>
         </footer>
     </body>
 </html>
